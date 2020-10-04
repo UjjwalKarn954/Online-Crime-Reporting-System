@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fir form</title>
+    </head>
+
+    <body style="background: black;font-family: courier new;font-size:18px;font-weight: bold;">
+        <form action="complaint.php" method="post">   
+            <div style="color: orange;margin: 10px;text-align: center;">
+                <H1>Fill all the Details correctly:</H1>
+<PARAM NAME=movie VALUE="complaint.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#333399> <EMBED src="complaint.swf" quality=high bgcolor=#333399 WIDTH="500" HEIGHT="130" NAME="complaint"  TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED> </OBJECT></PARAM></br>
+                Name:<input type="text" name="name" /> <br /><br />
+                Address:<input type="text" name="address" /> <br /><br />
+                
+                Gender: 
+                <input type="radio" name="gender" value="m"> Male</input>
+                <input type="radio" name="gender" value="f">Female</input>
+                <br/><br />
+                Date:
+                <input type="Date" name="date"/> <br /><br />
+                Fir Type:
+                <input type="checkbox" name="firtype[]" value="theft"> Theft</input>
+            <input type="checkbox" name="firtype[]" value="murder"> Murder</input>
+            <input type="checkbox" name="firtype[]" value="missing"> Missing</input>
+        <input type="checkbox" name="firtype[]" value="threat"> Threats</input>
+    <input type="checkbox" name="firtype[]" value="other"> Other</input></br><br />
+                Description of the Crime:</br>
+                <textarea rows="10" cols="65" type="text" name="desc"  placeholder="Give a brief description about Crime" maxlength="600"   ></textarea>  <br/><br/>
+            <input type="submit" name="submit"  value="submit"/> <br />
+            </div>
+        </form>
+    </body>
+</html>
