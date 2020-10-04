@@ -1,0 +1,86 @@
+body{
+	background-color:black;
+	animation-name: backg;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.Welcome{
+	font-size:65px;
+	color:orange;
+	text-align: center;
+	margin-top: 15%;
+	font-family: courier new;
+	text-transform: uppercase;
+	animation: text 5s infinite;
+	
+
+}
+#devill{
+	font-size:50px;
+	color:red;
+	font-weight: bold;
+	text-align: center;
+	font-family: courier new;
+	text-transform: uppercase;
+	animation: text 5s infinite;
+	margin-bottom: -40px;
+}
+@keyframes text{
+	0%{
+		color:black;
+		margin-bottom: -40px;
+	}
+	20%{
+		letter-spacing: 20px;
+		margin-bottom: -30px;
+		background-color: brown
+		color:white;
+	}
+	45%{
+		letter-spacing: 24px;
+		margin-bottom: -40px;
+		background-color: green;
+		color:yellow;
+
+	}
+	60%{
+		letter-spacing: 39px;
+		margin-bottom: -60px;
+		background-color: gray;
+	}
+	80%{
+		letter-spacing: 40px;
+		margin-bottom: -20px;
+		background-color: blue;
+		color: white;
+
+	}
+	90%{
+		letter-spacing: 45px;
+		margin-bottom: -50px;
+		background-color: #490A0A;
+
+	}
+	100%{
+		letter-spacing: 55px;
+		margin-bottom: -20px;
+		background-color: red;
+		color: black;
+	}
+}
+@keyframes backg{
+	0%{
+		background-color:black;
+	}
+	30%{
+		background-color: #490A0A;
+	}
+	50%{
+		background-color: #4D3434;
+	}
+	90%{
+		background-color: #361616;
+	}
+}
+
+
